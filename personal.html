@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Tasks</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            background-image: radial-gradient(circle, #93a5cf 50%, #e4efe9 100%);
+            backface-visibility: visible;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="task-container">
+        <h1>Personal Tasks</h1>
+        <input type="text" id="personal-task" placeholder="Add a task...">
+        <button onclick="addTask('personal')">Add Task</button>
+        <div id="personal-list"></div>
+    </div>
+    <script src="personal.js"></script>
+</body>
+</html>
